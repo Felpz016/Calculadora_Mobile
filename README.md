@@ -41,8 +41,8 @@ Diferente da Vitrine, aqui **não há** Expo Router nem NativeWind: o modelo `bl
 No PowerShell, na pasta onde ficam os projetos (ao lado da `vitrine-mobile`, não dentro dela):
 
 ```powershell
-git clone https://github.com/Felpz016/calculadora-mobile.git
-cd calculadora-mobile
+git clone https://github.com/Felpz016/Calculadora_Mobile.git
+cd Calculadora_Mobile
 npm install
 npx expo start        # QR code para o Expo Go; tecla w abre no navegador
 ```

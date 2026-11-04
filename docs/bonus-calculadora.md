@@ -85,7 +85,7 @@ Os testes de `npm test` usam o `node:test`, que já vem no Node 22, então não 
 - `npm run check` (`tsc --noEmit`) e `npm test` foram acrescentados, no mesmo padrão da Vitrine.
 - `@types/node` (só para os testes) e `allowImportingTsExtensions` no `tsconfig.json`, porque o Node exige o `.ts` no import do teste.
 - Comentários em português no código, explicando cada trecho.
-- O repositório se chama `calculadora-mobile` (o PDF sugere `calculadora`), para combinar com `vitrine-mobile`.
+- O repositório se chama `Calculadora_Mobile` (o PDF sugere `calculadora`).
 - Os desafios opcionais (DEL, contas encadeadas, ±, %, tema claro) **não** foram feitos.
 
 ## Para explicar ao professor
