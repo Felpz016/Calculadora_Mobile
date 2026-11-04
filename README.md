@@ -34,9 +34,23 @@ Diferente da Vitrine, aqui **não há** Expo Router nem NativeWind: o modelo `bl
 | `src/components/Botao.tsx` | Botão reutilizável; avisa o pai pelo evento `aoTocar` |
 | `src/calcular.ts` | Funções puras `calcular` e `formatar`, sem React |
 | `tests/calcular.test.ts` | Testes da conta com o test runner do próprio Node |
+| `public/simulador.html` | Simulador: o app web dentro de uma moldura de celular |
+| `iniciar.cmd` / `iniciar.ps1` | Atalho de um clique que liga o Expo e abre o simulador |
 | `docs/bonus-calculadora.md` | Explicação do laboratório passo a passo |
 
 ## Como rodar
+
+### Com simulador de celular no navegador (Windows)
+
+Dê dois cliques em `iniciar.cmd` na pasta do projeto (ou rode `.\iniciar.cmd` no PowerShell). Ele instala as dependências na primeira vez, liga o Expo e abre no navegador o **simulador**: a calculadora dentro de uma moldura de celular, sem precisar do Expo Go.
+
+- Endereço: http://localhost:8081/simulador.html (dá para trocar o aparelho no topo: iPhone 17 Pro, Pro Max, SE ou Android).
+- Salvou um arquivo? O app no simulador atualiza sozinho. O `console.log` aparece no F12 › Console.
+- O QR code continua no terminal, para conferir também no celular (alguns erros só aparecem no aparelho).
+
+<img src="docs/img/simulador.png" alt="Calculadora no simulador do navegador" width="480">
+
+### Manualmente
 
 No PowerShell, na pasta onde ficam os projetos (ao lado da `vitrine-mobile`, não dentro dela):
 

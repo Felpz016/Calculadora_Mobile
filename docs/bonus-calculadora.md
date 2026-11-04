@@ -24,6 +24,7 @@ Um commit por bloco do roteiro, para o professor ver a evolução:
 | `bonus: componentes Visor e Botao e teclado completo` | 4 a 10 |
 | `bonus: estado, decimais e conta com calcular.ts e testes` | 11 a 15 |
 | `bonus: README, docs e CI` | documentação e verificação automática |
+| `bonus: simulador de celular no navegador` | `iniciar.cmd` e `public/simulador.html` |
 
 ## Como funciona
 
@@ -86,6 +87,7 @@ Os testes de `npm test` usam o `node:test`, que já vem no Node 22, então não 
 - `@types/node` (só para os testes) e `allowImportingTsExtensions` no `tsconfig.json`, porque o Node exige o `.ts` no import do teste.
 - Comentários em português no código, explicando cada trecho.
 - O repositório se chama `Calculadora_Mobile` (o PDF sugere `calculadora`).
+- Simulador no navegador (`public/simulador.html` e `iniciar.cmd`), trazido do TCC: o app web numa moldura de celular, em http://localhost:8081/simulador.html.
 - Os desafios opcionais (DEL, contas encadeadas, ±, %, tema claro) **não** foram feitos.
 
 ## Para explicar ao professor
